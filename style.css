@@ -1,0 +1,224 @@
+
+body {
+    background-color: #c3b091;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Cutive Mono';
+}
+
+main {
+   margin: 0px auto;
+    padding: 20px;
+    width: 800px;
+    background-color: #dfc9a6; 
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* index.php */
+
+.date-container {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.happy-hours-message {
+    margin: 40px auto;
+    padding: 20px;
+    width: 800px;
+    background-color:  #dfc9a6;
+    border: 2px dashed white;
+}
+
+.happy-hours-message__header {
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 0px;
+    width: 400px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.happy-hours-message__text {
+    text-align: center;
+}
+
+.order-form {
+    margin: 0px auto;
+    text-align: left;
+}
+
+.product-container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-container__item {
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+.product-container__title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.product-img {
+    margin: 0px auto;
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+.org-price {
+    position: relative;
+}
+
+.org-price::after {
+    top: 50%;
+    left: 0;
+    right: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.new-price {
+    color: red;
+    word-spacing: -6px;
+}
+
+.product-container__attribute {
+    padding: 5px;
+}
+
+.product-container__attribute--padding {
+    padding: 15px 0px 0px 50px;
+}
+
+.product-container__attribute--right{
+    padding-top: 20px;
+    text-align: right;
+}
+
+.quantity {
+    margin-left: auto;
+    width: 40px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.contact__input {
+    padding: 5px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.contact {
+    margin: 30px auto;
+    width: 500px;
+}
+
+.contact__header {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.input-error {
+    margin: 5px;
+    padding: 0px;
+    font-size: 1rem;
+    color: red;
+    font-style: bold;
+    white-space: nowrap;
+}
+
+.contact__label {
+    margin: 2px;
+}
+
+.submit-btn-container {
+    margin: 30px;
+    text-align: center;
+}
+
+.submit-btn {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-appearance: none;
+}
+
+
+/* form.php */
+
+.product-confirmation {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-confirmation__head {
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.product-confirmation__label {
+    padding: 5px 20px;
+    list-style: none;
+}
+
+.product-confirmation__item {
+    padding: 15px 20px;
+    list-style: none;
+}
+
+.product-confirmation__item--wrap {
+    white-space: nowrap;
+}
+
+.total-sum__text {
+    padding: 40px 20px 0px 0px;
+    text-align: right;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+.is-cart-empty-message {
+    padding-right: 5px;
+    text-align: right;
+}
+
+.contact-information__list {
+    padding: 0px;
+}
+
+.contact-confirmation__header {
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.contact-confirmation__info {
+    padding: 0px 20px;
+    list-style: none;
+    display: block;
+}
+
+.return-btn-container {
+    margin: 40px;
+    text-align: center;
+}
+
